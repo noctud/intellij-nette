@@ -1,41 +1,44 @@
-Nette Helpers for PhpStorm
+Nette for PhpStorm and IntelliJ Idea
 =========================================
 
+[![JetBrains Marketplace](https://img.shields.io/jetbrains/plugin/v/28342-nette-helpers?label=marketplace)](https://plugins.jetbrains.com/plugin/28342-nette-helpers)
+[![Build](https://img.shields.io/github/actions/workflow/status/noctud/intellij-nette/build.yaml?branch=main)](https://github.com/noctud/intellij-nette/actions)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+[![Discord](https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white)](https://discord.gg/jS3fKe6vW9)
+
 <!-- Plugin description -->
-Helpers for the [Nette Framework](https://nette.org/), serves as a light replacement for the [nette framework helpers](https://github.com/nette-intellij/intellij-nette) that was removed from the marketplace.
+A lightweight PhpStorm plugin that provides smart IDE support for the [Nette Framework](https://nette.org/). It adds autocompletion, type inference, and implicit usage detection for presenters and components.
 
+If you have any problems with the plugin, [create an issue](https://github.com/noctud/intellij-nette/issues/new/choose) or join the [Noctud Discord](https://discord.gg/jS3fKe6vW9).
 <!-- Plugin description end -->
-
-If you have any problems with the plugin, [create an issue](https://github.com/Rixafy/NetteHelpers/issues/new/choose) or use #nette channel at the [Nette Discord](https://discord.gg/azXxTbuQVq).
-
 
 Installation
 ------------
-Settings → Plugins → Browse repositories → Find "Nette Helpers" → Install Plugin → Apply
+Settings → Plugins → Marketplace → Search for "Nette Helpers" → Install → Apply
 
 
 Installation from .jar file
 ------------
-Download `instrumented.jar` file from [latest release](https://github.com/Rixafy/NetteHelpers/releases) or latest successful [GitHub Actions build](https://github.com/Rixafy/NetteHelpers/actions)
+Download the `instrumented.jar` file from the [latest release](https://github.com/noctud/intellij-nette/releases) or the latest successful [GitHub Actions build](https://github.com/noctud/intellij-nette/actions).
 
 
 Supported Features
 ------------------
 
 * Autocompletion for controls in presenters and components
-* Type-checking of controls in presenters and components
-* Marking presenter methods (actions, signals etc.) as used
+* Type inference for controls in presenters and components
+* Marking presenter methods (actions, signals, etc.) as implicitly used
 
 Building
 ------------
 
-```$xslt
-$ ./gradlew buildPlugin
+```sh
+./gradlew buildPlugin
 ```
 
 Testing in dummy IDE
 ------------
 
-```$xslt
-$ ./gradlew runide
+```sh
+./gradlew runIde
 ```

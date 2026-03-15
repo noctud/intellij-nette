@@ -1,1 +1,1 @@
-rootProject.name = "NetteHelpers"
+rootProject.name = "intellij-nette"

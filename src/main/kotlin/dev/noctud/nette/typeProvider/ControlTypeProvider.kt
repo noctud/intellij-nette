@@ -1,4 +1,4 @@
-package org.nette.helpers.typeProvider
+package dev.noctud.nette.typeProvider
 
 import com.intellij.openapi.project.DumbService
 import com.intellij.openapi.project.Project
@@ -7,7 +7,7 @@ import com.jetbrains.php.PhpIndex
 import com.jetbrains.php.lang.psi.elements.*
 import com.jetbrains.php.lang.psi.resolve.types.PhpType
 import com.jetbrains.php.lang.psi.resolve.types.PhpTypeProvider4
-import org.nette.helpers.ext.*
+import dev.noctud.nette.ext.*
 
 class ControlTypeProvider : PhpTypeProvider4 {
     private val separator = '\u001f'

@@ -1,12 +1,12 @@
-package org.nette.helpers.usageProvider
+package dev.noctud.nette.usageProvider
 
 import com.intellij.codeInsight.daemon.ImplicitUsageProvider
 import com.intellij.openapi.project.DumbService
 import com.intellij.psi.PsiElement
 import com.jetbrains.php.lang.psi.elements.Method
 import com.jetbrains.php.lang.psi.elements.PhpClass
-import org.nette.helpers.ext.isAnyPresenterMethod
-import org.nette.helpers.ext.isComponent
+import dev.noctud.nette.ext.isAnyPresenterMethod
+import dev.noctud.nette.ext.isComponent
 
 class ComponentImplicitUsageProvider : ImplicitUsageProvider {
     override fun isImplicitUsage(element: PsiElement): Boolean {

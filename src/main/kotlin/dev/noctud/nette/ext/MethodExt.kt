@@ -1,4 +1,4 @@
-package org.nette.helpers.ext
+package dev.noctud.nette.ext
 
 import com.jetbrains.php.lang.psi.elements.Method
 import java.util.Locale.getDefault

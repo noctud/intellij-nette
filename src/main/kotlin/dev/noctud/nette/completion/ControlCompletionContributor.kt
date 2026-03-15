@@ -1,4 +1,4 @@
-package org.nette.helpers.completion
+package dev.noctud.nette.completion
 
 import com.intellij.codeInsight.completion.*
 import com.intellij.codeInsight.lookup.LookupElementBuilder
@@ -8,7 +8,7 @@ import com.intellij.util.ProcessingContext
 import com.jetbrains.php.lang.psi.elements.ArrayAccessExpression
 import com.jetbrains.php.lang.psi.elements.MethodReference
 import com.jetbrains.php.lang.psi.elements.StringLiteralExpression
-import org.nette.helpers.ext.*
+import dev.noctud.nette.ext.*
 
 class ControlCompletionContributor : CompletionContributor() {
     init {

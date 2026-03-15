@@ -1,4 +1,4 @@
-package org.nette.helpers.ext
+package dev.noctud.nette.ext
 
 import com.intellij.psi.PsiElement
 import com.intellij.psi.util.PsiTreeUtil

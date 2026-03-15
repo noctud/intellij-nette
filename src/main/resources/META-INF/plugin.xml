@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>org.nette.helpers</id>
     <name>Nette Helpers</name>
-    <vendor>Nette Community</vendor>
+    <vendor>Noctud.dev</vendor>
 
     <!-- http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges -->
     <idea-version/>
@@ -10,11 +10,11 @@
     <depends>com.jetbrains.php</depends>
 
     <extensions defaultExtensionNs="com.jetbrains.php">
-        <typeProvider4 implementation="org.nette.helpers.typeProvider.ControlTypeProvider"/>
+        <typeProvider4 implementation="dev.noctud.nette.typeProvider.ControlTypeProvider"/>
     </extensions>
 
     <extensions defaultExtensionNs="com.intellij">
-        <implicitUsageProvider implementation="org.nette.helpers.usageProvider.ComponentImplicitUsageProvider"/>
-        <completion.contributor language="PHP" implementationClass="org.nette.helpers.completion.ControlCompletionContributor"/>
+        <implicitUsageProvider implementation="dev.noctud.nette.usageProvider.ComponentImplicitUsageProvider"/>
+        <completion.contributor language="PHP" implementationClass="dev.noctud.nette.completion.ControlCompletionContributor"/>
     </extensions>
 </idea-plugin>
