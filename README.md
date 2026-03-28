@@ -15,7 +15,7 @@ If you have any problems with the plugin, [create an issue](https://github.com/n
 <table>
   <tr>
     <td><b>Ctrl+click navigation to presenters</b><br><img src=".github/screenshot_1.png" alt="Navigate to presenter class"></td>
-    <td><b>Action autocompletion in links</b><br><img src=".github/screenshot_2.png" alt="Autocomplete actions"></td>
+    <td><b>Autocompletion in links</b><br><img src=".github/screenshot_2.png" alt="Autocomplete actions"></td>
   </tr>
   <tr>
     <td><b>Find Usages across link strings</b><br><img src=".github/screenshot_4.png" alt="Find Usages"></td>
