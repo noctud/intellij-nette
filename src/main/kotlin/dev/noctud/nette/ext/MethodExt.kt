@@ -11,6 +11,22 @@ fun Method.asControlName(): String {
     return name.removePrefix("createComponent").replaceFirstChar { it.lowercase(getDefault()) }
 }
 
+fun Method.asActionName(): String {
+    val prefix = when {
+        isAction() -> "action"
+        isRender() -> "render"
+        else -> throw IllegalStateException("Method is not an action or render")
+    }
+    return name.removePrefix(prefix).replaceFirstChar { it.lowercase(getDefault()) }
+}
+
+fun Method.asSignalName(): String {
+    if (!isSignal()) {
+        throw IllegalStateException("Method is not a signal")
+    }
+    return name.removePrefix("handle").replaceFirstChar { it.lowercase(getDefault()) }
+}
+
 fun Method.isAnyPresenterMethod(): Boolean {
     return isControl() || isAction() || isRender() || isSignal() || isStartup() || isBeforeRender() || isAfterRender() || isShutdown()
 }

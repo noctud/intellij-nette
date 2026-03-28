@@ -3,11 +3,7 @@ package dev.noctud.nette.ext
 import com.intellij.psi.PsiElement
 import com.intellij.psi.util.PsiTreeUtil
 import com.jetbrains.php.PhpIndex
-import com.jetbrains.php.lang.psi.elements.ClassReference
-import com.jetbrains.php.lang.psi.elements.NewExpression
-import com.jetbrains.php.lang.psi.elements.PhpClass
-import com.jetbrains.php.lang.psi.elements.PhpTypedElement
-import com.jetbrains.php.lang.psi.elements.Variable
+import com.jetbrains.php.lang.psi.elements.*
 
 fun PsiElement.resolvePhpClasses(useIndex: Boolean = false): List<PhpClass> {
     // $this -> containing class

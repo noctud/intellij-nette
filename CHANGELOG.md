@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0] - 2026-03-28
+
+### Added
+
+- Completion, navigation, and highlighting for link/redirect/forward destination strings
+- Module hierarchy support in links (e.g. `:Web:Server:Detail:default`)
+- Test suite covering all plugin features
+
+### Changed
+
+- Plugin name from Nette Helpers to Nette
+
 ## [1.1.1] - 2025-12-14
 
 ### Fixed

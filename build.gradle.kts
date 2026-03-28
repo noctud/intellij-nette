@@ -1,5 +1,6 @@
 import org.jetbrains.changelog.Changelog
 import org.jetbrains.changelog.markdownToHTML
+import org.jetbrains.intellij.platform.gradle.TestFrameworkType
 
 fun cfg(key: String) = providers.gradleProperty(key)
 fun env(key: String) = providers.environmentVariable(key)
@@ -28,8 +29,11 @@ kotlin {
 dependencies {
     intellijPlatform {
         cfg("intellij.localPath").orNull?.let { local(it) } ?: create(cfg("platformType"), cfg("platformVersion"))
-        plugins(cfg("platformPlugins").map { it.split(',') })
+        bundledPlugin("com.jetbrains.php")
+        bundledPlugin("com.intellij.modules.json")
+        testFramework(TestFrameworkType.Platform)
     }
+    testImplementation("junit:junit:4.13.2")
 }
 
 intellijPlatform {
