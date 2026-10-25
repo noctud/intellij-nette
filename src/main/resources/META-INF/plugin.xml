@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>org.nette.helpers</id>
-    <name>Nette</name>
+    <name>Nette Helpers</name>
     <vendor>Noctud.dev</vendor>
 
     <!-- http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges -->

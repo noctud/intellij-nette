@@ -1,5 +1,5 @@
-Nette for PhpStorm and IntelliJ IDEA
-=========================================
+Nette Helpers for PhpStorm and IntelliJ IDEA
+============================================
 
 [![JetBrains Marketplace](https://img.shields.io/jetbrains/plugin/v/28342-nette-helpers?label=marketplace)](https://plugins.jetbrains.com/plugin/28342-nette-helpers)
 [![Build](https://img.shields.io/github/actions/workflow/status/noctud/intellij-nette/build.yaml?branch=main)](https://github.com/noctud/intellij-nette/actions)
@@ -25,7 +25,7 @@ If you have any problems with the plugin, [create an issue](https://github.com/n
 
 Installation
 ------------
-Settings → Plugins → Marketplace → Search for "Nette" → Install → Apply
+Settings → Plugins → Marketplace → Search for "Nette Helpers" → Install → Apply
 
 
 Installation from .jar file
