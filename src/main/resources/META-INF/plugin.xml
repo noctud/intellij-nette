@@ -19,6 +19,7 @@
         <completion.contributor language="PHP" implementationClass="dev.noctud.nette.completion.LinkCompletionContributor"/>
         <psi.referenceContributor language="PHP" implementation="dev.noctud.nette.reference.LinkReferenceContributor"/>
         <annotator language="PHP" implementationClass="dev.noctud.nette.annotator.LinkAnnotator"/>
+        <codeInsight.lineMarkerProvider language="PHP" implementationClass="dev.noctud.nette.lineMarker.TemplateLineMarkerProvider"/>
         <referencesSearch implementation="dev.noctud.nette.search.LinkReferencesSearcher"/>
         <renameHandler implementation="dev.noctud.nette.reference.LinkRenameVetoHandler" order="first"/>
     </extensions>
