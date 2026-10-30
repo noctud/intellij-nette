@@ -1,10 +1,11 @@
 # Changelog
 
-## [Unreleased]
+## [1.3.0] - 2026-10-30
 
 ### Added
 
 - Gutter icon on presenter actions that navigates to their Latte template
+- `$this->template` typed with the template class Nette picks by convention (`ProductTemplate`, `ProductEditTemplate`, `MenuTemplate`)
 
 ## [1.2.0] - 2026-03-28
 

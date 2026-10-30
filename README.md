@@ -46,6 +46,7 @@ Supported Features
 ### Components
 * Autocompletion for component names in `$this['...']` and `$this->getComponent('...')`
 * Type inference for component access — resolves return types from `createComponent*()` methods
+* `$this->template` and `$this->getTemplate()` typed with the template class Nette picks by convention — `ProductEditTemplate` in the edit action, otherwise `ProductTemplate` in `ProductPresenter`, `MenuTemplate` in `MenuControl`
 
 ### Presenter methods
 * Gutter icon on `render*` and `action*` methods navigating to their Latte template, found where Nette looks for it or by the presenter and view name anywhere in the project (`Product/edit.latte`, `Product.edit.latte`, `Product-edit.latte`, `Product.latte`)

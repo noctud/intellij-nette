@@ -11,6 +11,7 @@
 
     <extensions defaultExtensionNs="com.jetbrains.php">
         <typeProvider4 implementation="dev.noctud.nette.typeProvider.ControlTypeProvider"/>
+        <typeProvider4 implementation="dev.noctud.nette.typeProvider.TemplateTypeProvider"/>
     </extensions>
 
     <extensions defaultExtensionNs="com.intellij">
