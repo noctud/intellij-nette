@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+
+- Gutter icon on presenter actions that navigates to their Latte template
+
 ## [1.2.0] - 2026-03-28
 
 ### Added

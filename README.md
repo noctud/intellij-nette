@@ -48,6 +48,7 @@ Supported Features
 * Type inference for component access — resolves return types from `createComponent*()` methods
 
 ### Presenter methods
+* Gutter icon on `render*` and `action*` methods navigating to their Latte template, found where Nette looks for it or by the presenter and view name anywhere in the project (`Product/edit.latte`, `Product.edit.latte`, `Product-edit.latte`, `Product.latte`)
 * `action*`, `render*`, `handle*`, `createComponent*`, `startup`, `beforeRender`, `afterRender`, `shutdown` are marked as implicitly used
 * Nette Component subclasses are marked as implicitly used
 
